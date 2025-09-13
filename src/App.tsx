@@ -1,4 +1,4 @@
-import { ChallengeComponent } from "./ChallengeComponent";
+import { TodoBoard } from "./components/TodoBoard";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         </div>
       </header>
       <main className="w-full max-w-[calc(100vw-50px)] mx-auto bg-gray-50 border border-black shadow-lg rounded-[40px] mt-4">
-        <ChallengeComponent />
+        <TodoBoard />
       </main>
     </div>
   );
